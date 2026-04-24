@@ -481,7 +481,7 @@
           <!-- Logo -->
           <a class="uh-logo" href="${c.logoUrl || "/"}"
              data-action="logo" aria-label="${c.appName || "Home"}">
-            <span class="uh-logo-icon">
+            <span >
             <img 
       src="${this._escHtml(c.logoUrl || '/assets/logo.png')}" 
       alt="${this._escHtml(c.appName || 'Logo')}" 

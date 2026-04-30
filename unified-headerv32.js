@@ -495,6 +495,10 @@
             </span>
           </a>
 
+          <div style="width:357px;height:28px;">
+              <img src="${this._escHtml(c.logoUrl)}" style="height:22px; width:22px;vertical-align:middle;"></img>
+          </div>
+
           <div class="uh-spacer"></div>
 
           <!-- Account Switcher -->

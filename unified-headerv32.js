@@ -485,7 +485,7 @@
             <img 
       src="${this._escHtml(c.logoUrl || '/assets/logo.png')}" 
       alt="${this._escHtml(c.appName || 'Logo')}" 
-      style="height: 24px; width: auto;vertical-align: middle;"
+      style="height:22px; width:22px;vertical-align:middle;"
     />
             </span>
             <span class="uh-divider-v" aria-hidden="true"></span>

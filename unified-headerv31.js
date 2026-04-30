@@ -50,10 +50,10 @@
                    'Segoe UI', Roboto, sans-serif;
       --uh-height: 52px;
       --uh-bg: #ffffff;
-      --uh-border: #e0e5ee;
+      --uh-border: #666666;
       --uh-text: #16325c;
       --uh-muted: #706e6b;
-      --uh-accent: #0070d2;
+      --uh-accent: #006dcc;
       --uh-hover-bg: #f3f3f3;
       --uh-dropdown-shadow: 0 4px 16px rgba(0,0,0,0.14);
       --uh-radius: 6px;
@@ -101,7 +101,7 @@
 
     .uh-divider-v {
       width: 1px;
-      height: 22px;
+      height: 24px;
       background: var(--uh-border);
       flex-shrink: 0;
     }
@@ -479,24 +479,12 @@
         <header class="uh-bar" role="banner">
 
           <!-- Logo -->
-          <a class="uh-logo" href="${c.logoUrl || "/"}"
-             data-action="logo" aria-label="${c.appName || "Home"}">
-            <span >
-            <img 
-      src="${this._escHtml(c.logoUrl || '/assets/logo.png')}" 
-      alt="${this._escHtml(c.appName || 'Logo')}" 
-      style="height:22px; width:22px;vertical-align:middle;"
-    />
-            </span>
-            <span class="uh-divider-v" aria-hidden="true"></span>
-            <span class="uh-logo-text">
-              ${this._escHtml(c.logoText || "CONNECT")}
-              ${c.logoHighlight ? `<span>${this._escHtml(c.logoHighlight)}</span>` : ""}
-            </span>
-          </a>
-
           <div style="width:357px;height:28px;">
               <img src="${this._escHtml(c.logoUrl)}" style="height:22px; width:22px;vertical-align:middle;"></img>
+              <span class="uh-divider-v" aria-hidden="true"></span>
+              <span class="uh-logo-text">
+                  {this._escHtml(c.logoText)} <span>{this._escHtml(c.logoHighlight)}</span>
+              </span>
           </div>
 
           <div class="uh-spacer"></div>

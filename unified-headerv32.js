@@ -107,9 +107,9 @@
     }
 
     .uh-logo-text {
-      font-size: 13px;
-      font-weight: 700;
-      letter-spacing: 0.08em;
+      font-size: 20px;
+      font-family: 'Montserrat', sans-serif;
+      letter-spacing: 4px;
       text-transform: uppercase;
       color: var(--uh-text);
     }

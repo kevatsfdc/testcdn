@@ -485,7 +485,7 @@
             <img 
       src="${this._escHtml(c.logoUrl || '/assets/logo.png')}" 
       alt="${this._escHtml(c.appName || 'Logo')}" 
-      style="height: 24px; width: auto;"
+      style="height:22px; width:22px;vertical-align:middle;"
     />
             </span>
             <span class="uh-divider-v" aria-hidden="true"></span>
@@ -494,6 +494,10 @@
               ${c.logoHighlight ? `<span>${this._escHtml(c.logoHighlight)}</span>` : ""}
             </span>
           </a>
+
+          <div style="width:357px;height:28px;">
+              <img src="${this._escHtml(c.logoUrl)}" style="height:22px; width:22px;vertical-align:middle;"></img>
+          </div>
 
           <div class="uh-spacer"></div>
 

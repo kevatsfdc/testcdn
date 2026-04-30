@@ -107,14 +107,15 @@
     }
 
     .uh-logo-text {
-      font-size: 13px;
-      font-weight: 700;
-      letter-spacing: 0.08em;
+      font-size: 24px;
+      font-weight: 300;
+      font-family: 'Montserrat', sans-serif;
+      letter-spacing: 4px;
       text-transform: uppercase;
-      color: var(--uh-text);
+      color: #666666;
     }
     .uh-logo-text span {
-      color: var(--uh-accent);
+      color: #006DCC;
     }
 
     /* ── Spacer ── */
@@ -483,7 +484,7 @@
               <img src="${this._escHtml(c.logoUrl)}" style="height:22px; width:22px;vertical-align:middle;"></img>
               <span class="uh-divider-v" aria-hidden="true"></span>
               <span class="uh-logo-text">
-                  {this._escHtml(c.logoText)} <span>{this._escHtml(c.logoHighlight)}</span>
+                  ${this._escHtml(c.logoText)} <span>${this._escHtml(c.logoHighlight)}</span>
               </span>
           </div>
 
